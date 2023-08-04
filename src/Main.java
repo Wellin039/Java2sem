@@ -5,6 +5,11 @@ public class Main {
 
         double aX, bX, cX, aY, bY, cY;
 
+        Triangulo x, y;
+
+        x = new Triangulo();
+        y = new Triangulo();
+
         Scanner teclado = new Scanner(System.in);
 
         System.out.println("Insira os lados do triangulo X");
